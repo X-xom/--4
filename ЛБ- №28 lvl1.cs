@@ -31,8 +31,7 @@ class HelloWorld {
         for (int j = 0; j < 2; j++)
             a[i, j] = a[i + 1, j];
     Console.WriteLine();
-    for (int i = 0; i < 3; i++)
-    {
+    for (int i = 0; i < 3; i++){
         for (int j = 0; j < 2; j++)
             Console.Write("{0:d}  ", a[i, j]);
         Console.WriteLine();
